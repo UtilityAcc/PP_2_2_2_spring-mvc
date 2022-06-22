@@ -12,7 +12,7 @@ import java.util.List;
 public class CarserviceImpl implements CarDao {
     private CardaoImpl cardaoImlp;
     @Autowired
-    public CarserviceImlp(CardaoImpl cardaoImlp) {
+    public CarserviceImpl(CardaoImpl cardaoImlp) {
         this.cardaoImlp = cardaoImlp;
     }
     @Override
