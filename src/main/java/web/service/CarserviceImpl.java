@@ -9,7 +9,7 @@ import web.models.Car;
 import java.util.List;
 
 @Component
-public class CarserviceImlp implements CarDao {
+public class CarserviceImpl implements CarDao {
     private CardaoImpl cardaoImlp;
     @Autowired
     public CarserviceImlp(CardaoImpl cardaoImlp) {
